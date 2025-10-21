@@ -1,0 +1,113 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    header {
+      display: flex;
+  justify-content: center;  /* Centra el contenido horizontalmente */
+  align-items: center;      /* Centra verticalmente */
+  gap: 40px;                /* Espacio entre elementos */
+  margin-bottom: 30px;
+  width: 100%;
+    }
+
+    h1{
+        font-family: 'Great Vibes', cursive;
+        color: #da7979;
+    }
+
+    h2{
+        font-family: 'Great Vibes', cursive;
+        color: #da7979;
+        font-size:1cm;
+        margin-top:auto;
+        margin-bottom: 0cm ;
+    }
+   
+    h3{
+        font-family: 'Great Vibes', cursive;
+        font-size:1cm;
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+   
+    .menu-item {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 20px;
+      max-width: 800px;
+    }
+
+    .menu-item img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .menu-item h4 {
+      margin: 0;
+    }
+
+    .menu-item p {
+      margin: 4px 0;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      max-width: 600px;
+      margin-top: 20px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group label {
+      margin-bottom: 5 px;
+    }
+
+    .form-actions {
+      grid-column: span 2;
+      display: flex;
+      gap: 10px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select {
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #e38888;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #da7979;
+    }
+
+    .container {
+  max-width: 1000px;
+  margin: 30px auto;
+  background-color:#f7d6c5; 
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
